@@ -1,10 +1,7 @@
 {
-    "compilerOptions": {
-      "jsx": "react",
-      "esModuleInterop": true,
-      "allowJs": true,
-      "types": ["jest","cypress"],
-    },
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "types": ["cypress"]
+  },
     "include": ["**/*.ts", "**/*.tsx", "cypress/**/*.ts", "cypress/**/*.tsx"],
-  }
-  
+}
